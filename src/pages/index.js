@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
 import Layout from '../components/layout'
+import Card from '../components/Card';
 
 const IndexPage = () => (
   <div>
@@ -16,6 +16,12 @@ const IndexPage = () => (
           </path>
         </svg>
       </div>
+    </div>
+    <div className="Cards">
+      <h2>Start Projects Here</h2>
+      <Card
+      title="Project One"
+      text="description" />
     </div>
   </div>
 )
