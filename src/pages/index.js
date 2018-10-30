@@ -19,9 +19,17 @@ const IndexPage = () => (
     </div>
     <div className="Cards">
       <h2>Start Projects Here</h2>
-      <Card
-      title="Project One"
-      text="description" />
+      <div className="CardGroup">
+        <Card
+          title="Project One"
+          text="description" />
+        <Card
+          title="Project Two"
+          text="description" />
+        <Card
+          title="Project Three"
+          text="description" />
+      </div>
     </div>
   </div>
 )
