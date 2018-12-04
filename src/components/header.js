@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
-//TODO:CREATE HEADER COMPONENT
+import { Link } from 'gatsby'
+import Layout from '../components/layout'
 
 class Header extends Component {
 
