@@ -9,6 +9,7 @@ const IndexPage = () => (
       <div className="HeroGroup">
         <h1 className="MainHead">Kristen McCloud</h1>
         <p>Web Developer</p>
+//TODO:MAKE BUTTONS RESPONSIVE
         <Link to="/page-2/">About Me</Link>
         <Link to="/page-2/">Home</Link>
         <Link to="/page-2/">Contact</Link>
